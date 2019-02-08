@@ -70,7 +70,7 @@ ul {
 
 #search {
     display:block;
-    position:fixed;
+    position:absolute;
     top: 373px;
     left: 40.3%;
     margin-top: -50px;
