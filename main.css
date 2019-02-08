@@ -62,7 +62,11 @@ ul {
     display:block;
     position:relative;
     top: 10vw;
+<<<<<<< HEAD
     left: 41.8%;
+=======
+    left: 35.8%;
+>>>>>>> 721e79a15c03087086926eab8f938d185e4464c2
 }
 
 .main {
