@@ -3,6 +3,7 @@
     font-size: 13px;
 }
 body {
+    width: 100vw;
     margin: auto;
 }
 
@@ -56,10 +57,12 @@ ul {
 }
 
 .logo {
+    margin-left: 0;
+    width:300px;
     display:block;
     position:relative;
-    top: 190px;
-    left: 35.8%;
+    top: 10vw;
+    left: 41.8%;
 }
 
 .main {
@@ -139,4 +142,9 @@ footer {
 
 #footcontainer {
     display: inline;
+}
+
+.top {
+    position: fixed;
+    width: 100%;
 }
