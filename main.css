@@ -57,9 +57,9 @@ ul {
 
 .logo {
     display:block;
-    position:absolute;
-    top: 192px;
-    left: 41.8%;
+    position:relative;
+    top: 190px;
+    left: 35.8%;
 }
 
 .main {
@@ -70,7 +70,7 @@ ul {
 
 #search {
     display:block;
-    position:fixed;
+    position:absolute;
     top: 373px;
     left: 40.3%;
     margin-top: -50px;
@@ -84,8 +84,8 @@ ul {
 #googlesearch {
     display:inline-block;
     position:relative;
-    top: 395px;
-    left: 36.7%;
+    top: 285px;
+    left: 42.5%;
     height:35px;
     width:123px;
     overflow: none;
@@ -94,8 +94,8 @@ ul {
 #lucky {
     display:inline-block;
     position:relative;
-    top: 395px;
-    left: 37%;
+    top: 285px;
+    left: 43%;
     height:35px;
     width:143px;
     overflow: none;
