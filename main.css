@@ -61,7 +61,7 @@ ul {
     width:300px;
     display:block;
     position:relative;
-    top: 10vw;
+    top: 150px;
     left: 41.7%;
 }
 
@@ -84,6 +84,23 @@ ul {
     width: 585px;
 }
 
+@media (max-device-width: 850px) {
+    #search {
+        width: 47vw;
+        left: 37vw;
+    }
+    .logo {
+        top: 15vw;
+        left: 33.5vw;
+    }
+    #googlesearch {
+        left: 35.5vw !important;
+    }
+    #lucky {
+        left: 37vw !important;
+    }
+}
+
 #googlesearch {
     display:inline-block;
     position:relative;
@@ -98,7 +115,7 @@ ul {
     display:inline-block;
     position:relative;
     top: 285px;
-    left: 43%;
+    left: 43vw;
     height:35px;
     width:143px;
     overflow: none;
@@ -119,6 +136,7 @@ input[type="search"]::-webkit-search-results-decoration {
  }
 
 footer {
+    padding-bottom: 10px;
     display: block;
     position: fixed;
     bottom:0px;
